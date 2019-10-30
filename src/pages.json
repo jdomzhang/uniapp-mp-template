@@ -1,0 +1,59 @@
+{
+  "pages": [
+    //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+    {
+      "path": "pages/home/index",
+      "style": {
+        "navigationBarTitleText": "uniapp模版"
+      }
+    },
+    {
+      "path": "pages/lifecycle/index",
+      "style": {
+        "navigationBarTitleText": "uniapp模版"
+      }
+    },
+
+    {
+      "path": "pages/my/home/index",
+      "style": {
+        "navigationBarTitleText": "个人中心"
+      }
+    }
+  ],
+  "globalStyle": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "uniapp模版",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#B5B5B5",
+    "backgroundColor": "#ffffff",
+    "selectedColor": "#1c5b9c",
+    "borderStyle": "white",
+
+    "list": [
+      {
+        "text": "首页",
+        "pagePath": "pages/home/index",
+        "iconPath": "static/tabs/home.png",
+        "selectedIconPath": "static/tabs/home-active.png"
+      },
+      {
+        "text": "lifecycle",
+        "pagePath": "pages/lifecycle/index",
+        "iconPath": "static/tabs/mars.png",
+        "selectedIconPath": "static/tabs/mars-active.png"
+      },
+      {
+        "text": "我的",
+        "pagePath": "pages/my/home/index",
+        "iconPath": "static/tabs/profile.png",
+        "selectedIconPath": "static/tabs/profile-active.png"
+      }
+    ],
+
+    "position": "bottom"
+  }
+}

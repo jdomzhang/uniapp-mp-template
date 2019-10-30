@@ -1,0 +1,37 @@
+@import './variable.styl'
+
+.nav .cu-item.activeTab
+  color $primary-color
+  font-size 32rpx
+  font-weight bold
+  position relative
+  text-align center
+  &:after
+    content ''
+    position absolute
+    border-bottom 6rpx solid $primary-color
+    border-radius 100rpx
+    bottom 10rpx
+    left 15%
+    right 15%
+    z-index 1
+
+.cu-btn.df
+  padding 0 25rpx
+  font-size 24rpx
+  height: 50rpx
+
+.solid::after
+  border 2rpx solid rgba(0, 0, 0, 0.1)
+
+.solid-top::after
+  border-top 2rpx solid rgba(0, 0, 0, 0.1)
+
+.solid-right::after
+  border-right 2rpx solid rgba(0, 0, 0, 0.1)
+
+.solid-bottom::after
+  border-bottom 2rpx solid rgba(0, 0, 0, 0.1)
+
+.solid-left::after
+  border-left 2rpx solid rgba(0, 0, 0, 0.1)
